@@ -1,4 +1,4 @@
-![image]("https://avatars.githubusercontent.com/u/96786263?s=96&amp;v=4")
+![image](https://avatars.githubusercontent.com/u/96786263?s=96&amp;v=4)
 
 # NobleCoin Utilities
 
