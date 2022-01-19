@@ -4,8 +4,8 @@ module.exports = {
     mode: 'production',
     entry: './dist/index.js',
     output: {
-        filename: 'TurtleCoinUtils.js',
-        library: 'TurtleCoinUtils',
+        filename: 'NobleCoinUtils.js',
+        library: 'NobleCoinUtils',
         libraryTarget: 'umd'
     },
     node: {
