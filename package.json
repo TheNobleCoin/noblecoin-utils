@@ -1,7 +1,7 @@
 {
-  "name": "turtlecoin-utils",
+  "name": "noblecoin-utils",
   "version": "3.0.10",
-  "description": "A Typescript/CommonJS collection of utilities useful for TurtleCoin developers",
+  "description": "A Typescript/CommonJS collection of utilities useful for NobleCoin developers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -23,16 +23,16 @@
     "test-js": "env FORCE_JS=1 ./node_modules/.bin/mocha --exit --timeout 30000 --require ts-node/register test/test.ts"
   },
   "keywords": [
-    "TurtleCoin",
+    "NobleCoin",
     "Utilities"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turtlecoin/turtlecoin-utils.git"
+    "url": "git+https://github.com/thenoblecoin/noblecoin-utils.git"
   },
-  "homepage": "https://utils.turtlecoin.dev",
+  "homepage": "https://utils.noblecoin.dev",
   "bugs": {
-    "url": "https://github.com/turtlecoin/turtlecoin-utils/issues"
+    "url": "https://github.com/thenoblecoin/noblecoin-utils/issues"
   },
   "author": "Brandon Lehmann <brandonlehmann@gmail.com>",
   "contributors": [
@@ -44,9 +44,9 @@
   },
   "dependencies": {
     "@ledgerhq/hw-transport": "^5.43.0",
-    "@turtlecoin/base58": "0.0.14",
-    "@turtlecoin/bytestream": "0.0.16",
-    "@turtlecoin/mnemonics": "0.0.12",
+    "@noblecoin/base58": "0.0.14",
+    "@noblecoin/bytestream": "0.0.16",
+    "@noblecoin/mnemonics": "0.0.12",
     "@types/aes-js": "^3.1.1",
     "@types/ledgerhq__hw-transport": "^4.21.3",
     "@types/ledgerhq__hw-transport-node-hid": "^4.22.2",
@@ -60,7 +60,7 @@
     "node-fetch": "^2.6.1",
     "numeral": "^2.0.6",
     "semver": "^7.3.4",
-    "turtlecoin-crypto": "^6.0.4"
+    "noblecoin-crypto": "^6.0.4"
   },
   "devDependencies": {
     "@types/mocha": "^8.2.1",
