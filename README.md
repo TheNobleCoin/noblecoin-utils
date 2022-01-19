@@ -1,16 +1,16 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image]("https://avatars.githubusercontent.com/u/96786263?s=96&amp;v=4")
 
-# TurtleCoin Utilities
+# NobleCoin Utilities
 
-[![NPM](https://nodeico.herokuapp.com/turtlecoin-utils.svg)](https://npmjs.com/package/turtlecoin-utils)
+[![NPM](https://nodeico.herokuapp.com/noblecoin-utils.svg)](https://npmjs.com/package/noblecoin-utils)
 
-![Prerequisite](https://img.shields.io/badge/node-%3E%3D10-blue.svg) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://utils.turtlecoin.dev) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/turtlecoin/turtlecoin-utils/graphs/commit-activity) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](https://github.com/turtlecoin/turtlecoin-utils/blob/master/LICENSE) [![Twitter: TurtlePay](https://img.shields.io/twitter/follow/_TurtleCoin.svg?style=social)](https://twitter.com/_TurtleCoin)
+![Prerequisite](https://img.shields.io/badge/node-%3E%3D10-blue.svg) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://utils.turtlecoin.dev) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/turtlecoin/turtlecoin-utils/graphs/commit-activity) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](https://github.com/thenoblecoin/noblecoin-utils/blob/master/LICENSE)
 
 #### Master Build Status
-[![Build Status](https://github.com/turtlecoin/turtlecoin-utils/workflows/CI%20Build%20Tests/badge.svg?branch=master)](https://github.com/turtlecoin/turtlecoin-utils/actions)
+[![Build Status](https://github.com/thenoblecoin/noblecoin-utils/workflows/CI%20Build%20Tests/badge.svg?branch=master)](https://github.com/thenoblecoin/noblecoin-utils/actions)
 
 #### Development Build Status
-[![Build Status](https://github.com/turtlecoin/turtlecoin-utils/workflows/CI%20Build%20Tests/badge.svg?branch=development)](https://github.com/turtlecoin/turtlecoin-utils/actions)
+[![Build Status](https://github.com/thenoblecoin/noblecoin-utils/workflows/CI%20Build%20Tests/badge.svg?branch=development)](https://github.com/thenoblecoin/noblecoin-utils/actions)
 
 ## Overview
 This package contains a number of different utility libraries that help with the following network and wallet based activities:
@@ -22,7 +22,7 @@ This package contains a number of different utility libraries that help with the
 * RPC interations with TurtleCoind and Wallet-API
 * Network P2P communication protocols (connect to the P2P network directly)
 * Transaction construction facilities
-* Ledger hardware wallet interaction for the [TurtleCoin® Ledger Wallet Application](https://github.com/turtlecoin/ledger-turtlecoin-app)
+* Ledger hardware wallet interaction for the [NobleCoin® Ledger Wallet Application](https://github.com/thenoblecoin/ledger-noblecoin-app)
 * Transaction handling, construction, decoding, hash calculations, TX_EXTRA parsing, etc
 * Deterministic subwallet generation
 * And much, much, more...
@@ -32,7 +32,7 @@ If you experience any issues with this library, the best way to address such sit
 ## Installation
 
 ```bash
-npm install turtlecoin-utils
+npm install noblecoin-utils
 ```
 
 ## Initialization
@@ -48,15 +48,15 @@ import {
     CryptoNote, 
     LevinPacket, 
     Transaction
-} from 'turtlecoin-utils'
+} from 'noblecoin-utils'
 const coinUtils = new CryptoNote()
 ```
 
 ### Javascript
 
 ```javascript
-const TurtleCoinUtils = require('turtlecoin-utils')
-const coinUtils = new TurtleCoinUtils.CryptoNote()
+const NobleCoinUtils = require('noblecoin-utils')
+const coinUtils = new NobleCoinUtils.CryptoNote()
 ```
 
 ### Browser Support
@@ -64,17 +64,17 @@ const coinUtils = new TurtleCoinUtils.CryptoNote()
 When packing for the browser with a tool like [webpack](https://webpack.js.org/) we advise that you use the ready `event` of the webpacked module to determine when the Cryptographic methods are available.
 
 ```html
-<script src="TurtleCoinUtils.js"></script>
+<script src="NobleCoinUtils.js"></script>
 <script>
-  TurtleCoinUtils.on('ready', () => {
-    const coinUtils = new TurtleCoinUtils.CryptoNote()
+  NobleCoinUtils.on('ready', () => {
+    const coinUtils = new NobleCoinUtils.CryptoNote()
   })
 </script>
 ```
 
 ### Documentation
 
-You can find the full documentation for this library [here](https://utils.turtlecoin.dev)
+You can find the full documentation for this library [here](https://utils.noblecoin.dev)
 
 ### Credits
 
